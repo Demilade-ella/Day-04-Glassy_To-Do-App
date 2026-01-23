@@ -119,6 +119,63 @@
     }
 
     .welcome-bottom {
-    margin-top: 80px;
+        margin-top: 80px;
+    }
 }
+
+@media (max-width: 866px) {
+    .welcome {
+        width: 500px;
+    }
+
+    .welcome-top {
+        gap: 4px;
+        width: 450px;
+        margin-left: -10px;
+        margin-top: 50px;
+    }
+
+    .welcome-bottom {
+        margin-top: 93px;
+        margin-right: -250px;
+    }
+}
+
+@media (max-width: 580px) {
+    .welcome {
+        margin-top: 30px;
+        width: 450px;
+        height: 90vh;
+    }
+
+    .welcome-top {
+        gap: 6px;
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+
+   .welcome-bottom {
+        margin-top: 233px;
+        margin-right: -250px;
+    }
+}
+
+@media (max-width: 477px) {
+    .welcome {
+        margin-top: 20px;
+        width: 300px;
+        height: 100vh;
+    }
+
+    .welcome-top {
+        gap: 8px;
+        width: 250px;
+        margin-left: 1px;
+        margin-top: 50px;
+    }
+
+    .welcome-bottom {
+        margin-top: 215px;
+        margin-right: -130px;
+    }
 }
